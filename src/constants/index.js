@@ -25,49 +25,49 @@ const competencies = [
     id: 'competencia-1',
     name: 'Pensamiento algorítmico',
     description:
-      '[Qué significa: descomponer un problema en pasos ordenados que una máquina pueda ejecutar. Qué demuestra: que un problema se resuelve con un procedimiento explícito y verificable]',
-    subject: 'Lógica de Programación',
-  },
-  {
-    id: 'competencia-2',
-    name: 'Programación estructurada',
-    description:
-      '[Qué significa: escribir un programa con decisiones, repeticiones y funciones bien separadas. Qué demuestra: que llevas una solución hasta un programa legible que funciona]',
+      "Descomponer un problema en pasos ordenados que una máquina pueda ejecutar. Demuestra que un problema se resuelve con un procedimiento explícito y verificable.",
     subject: 'Introducción a la Programación',
   },
   {
-    id: 'competencia-3',
-    name: 'Comunicación escrita',
+    id: 'competencia-2',
+    name: 'Pensamiento computacional',
     description:
-      '[Qué significa: presentar una idea por escrito con estructura, precisión y ortografía. Qué demuestra: que un texto tuyo se entiende a la primera y sirve como evidencia de lo que sabes]',
-    subject: 'Lenguaje',
+      'La logica no se trata de solo de programar, sino de pensar en términos de datos, procesos y resultados. Demuestra que puedes analizar un problema y diseñar una o varias solucines que una computadora pueda ejecutar.',
+    subject: 'Lógica Computacional',
+  },
+  {
+    id: 'competencia-3',
+    name: 'Comunicación efectiva',
+    description:
+      'Presentar o comunicar una idea con una estructura, precisión y confianza demuestra que puedes organizar tus ideas y expresarlas de manera clara y convincente.',
+    subject: 'Lenguaje y Comunicación',
   },
   {
     id: 'competencia-4',
-    name: 'Lectura crítica y argumentación',
+    name: 'Desarrollo de un gran país',
     description:
-      '[Qué significa: leer una fuente, identificar su postura y sostener la propia con argumentos. Qué demuestra: que distingues entre lo que un texto afirma y lo que tú concluyes]',
-    subject: 'Política',
+      'Entender la realidad social y política de Venezuela y cómo se relaciona con la historia, la economía y la cultura demuestra que puedes analizar un problema desde distintas perspectivas y proponer soluciones para su desarrollo.',
+    subject: 'Realidad Social y Política de Venezuela',
   },
   {
     id: 'competencia-5',
     name: 'Investigación aplicada',
     description:
-      '[Qué significa: formular una pregunta, buscar fuentes y citar lo que usas. Qué demuestra: que tu trabajo dice de dónde viene cada dato y otra persona puede revisarlo]',
-    subject: 'Técnica de Investigación',
+      'Formular una pregunta, buscar fuentes y citar lo que usas hace que tu trabajo sea confiable y verificable. Demuestra que puedes investigar un tema y presentar tus hallazgos de manera clara y organizada.',
+    subject: 'Técnica de Investigación Documental',
   },
   {
     id: 'competencia-6',
     name: 'Razonamiento cuantitativo',
     description:
-      '[Qué significa: trabajar con números, operaciones y relaciones entre cantidades. Qué demuestra: que puedes leer datos, calcular con ellos y justificar la conclusión]',
+      'Trabajar con números, operaciones y relaciones entre cantidades, demuestra: que puedes leer datos, calcular con ellos y justificar la conclusión',
     subject: 'Matemática',
   },
   {
     id: 'competencia-7',
     name: 'Lectura de textos técnicos en inglés',
     description:
-      '[Qué significa: entender documentación y textos de la especialidad en el idioma original. Qué demuestra: que puedes consultar fuentes directas para resolver un problema por tu cuenta]',
+      'Entender documentación y textos de la especialidad en el idioma original, ayuda a consultar fuentes directas, enteder el contexto y aprender de manera más eficiente. Demuestra que puedes leer y comprender textos técnicos en inglés.',
     subject: 'Inglés',
   },
 ];
@@ -76,79 +76,63 @@ const subjects = [
   {
     id: 'lenguaje',
     name: 'Lenguaje y Comunicación',
-    hours: '[NN]',
-    teacher: '[Nombre del docente]',
-    topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
+    teacher: 'Naiyelis Peroza',
+    topics: ['La comunicación humana: arquitectura', 'La lectura', 'La escritura como proceso'],
     learned:
       '[Qué aprendiste en esta materia: tipos de texto, cómo se construye un argumento y cómo se revisa un texto propio]',
-    evidence:
-      '[Qué trabajo concreto entregaste como evidencia: nombre del trabajo y en qué consistía]',
   },
   {
     id: 'matematica',
     name: 'Matemática',
-    hours: '[NN]',
-    teacher: '[Nombre del docente]',
-    topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
+    teacher: 'Ana Abraham',
+    topics: ['Operaciones con expresiones algebraicas', 'Ecuaciones Lineales y cuadráticas', 'Funciones exponenciales y logarítmicas'],
     learned:
       '[Qué aprendiste en esta materia: operaciones con números reales, álgebra y cómo se aplica el razonamiento matemático a un problema]',
-    evidence:
-      '[Qué trabajo concreto entregaste como evidencia: nombre del trabajo y en qué consistía]',
+
   },
   {
     id: 'logica-de-programacion',
     name: 'Lógica Computacional',
-    hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
     learned:
       '[Qué aprendiste en esta materia: proposiciones, tablas de verdad y el paso de un problema a un algoritmo por etapas]',
-    evidence:
-      '[Qué trabajo concreto entregaste como evidencia: nombre del trabajo y en qué consistía]',
+
   },
   {
     id: 'introduccion-a-la-programacion',
     name: 'Introducción a la Informática',
-    hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
     learned:
       '[Qué aprendiste en esta materia: variables, condiciones, ciclos y funciones en un lenguaje de programación]',
-    evidence:
-      '[Qué trabajo concreto entregaste como evidencia: nombre del programa o ejercicio y qué resolvía]',
+
   },
   {
     id: 'tecnica-de-investigacion',
     name: 'Técnicas de Investigación Documental',
-    hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
     learned:
       '[Qué aprendiste en esta materia: cómo se plantea una pregunta, cómo se buscan fuentes y cómo se citan]',
-    evidence:
-      '[Qué trabajo concreto entregaste como evidencia: nombre de la investigación y su alcance]',
+
   },
   {
     id: 'ingles',
     name: 'Inglés',
-    hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
     learned:
       '[Qué aprendiste en esta materia: lectura de textos técnicos y vocabulario de la especialidad]',
-    evidence:
-      '[Qué trabajo concreto entregaste como evidencia: nombre del ejercicio o de la lectura]',
   },
   {
     id: 'politica',
     name: 'Realidad Social y Politica de Venezuela',
-    hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
     learned:
       '[Qué aprendiste en esta materia: conceptos políticos básicos y cómo se analiza un hecho desde distintas posturas]',
-    evidence:
-      '[Qué trabajo concreto entregaste como evidencia: nombre del análisis y qué caso estudió]',
+
   },
 ];
 
