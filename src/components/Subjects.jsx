@@ -194,13 +194,6 @@ const Subjects = () => {
                           {subject.learned}
                         </p>
                       </div>
-
-                      <div>
-                        <FieldLabel>Evidencia</FieldLabel>
-                        <p className="mt-2 text-[15px] leading-[26px] text-secondary">
-                          {subject.evidence}
-                        </p>
-                      </div>
                     </div>
                   </motion.div>
                 )}

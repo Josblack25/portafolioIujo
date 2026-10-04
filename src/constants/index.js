@@ -79,7 +79,7 @@ const subjects = [
     teacher: 'Naiyelis Peroza',
     topics: ['La comunicación humana: arquitectura', 'La lectura', 'La escritura como proceso'],
     learned:
-      '[Qué aprendiste en esta materia: tipos de texto, cómo se construye un argumento y cómo se revisa un texto propio]',
+      'Los Procesos de la comunicación, metodos de investigacion y como se aplican, como elavorar diagramas de flujo, mapas conceptuales y organizadores graficos, como se elabora un ensayo y como se organiza un texto argumentativo',
   },
   {
     id: 'matematica',
@@ -87,51 +87,51 @@ const subjects = [
     teacher: 'Ana Abraham',
     topics: ['Operaciones con expresiones algebraicas', 'Ecuaciones Lineales y cuadráticas', 'Funciones exponenciales y logarítmicas'],
     learned:
-      '[Qué aprendiste en esta materia: operaciones con números reales, álgebra y cómo se aplica el razonamiento matemático a un problema]',
+      'Las operaciones matematicas que son las bases para calculo, el razonamiento matemático y la resolución de problemas',
 
   },
   {
     id: 'logica-de-programacion',
     name: 'Lógica Computacional',
-    teacher: '[Nombre del docente]',
-    topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
+    teacher: 'Alfredo Blasco',
+    topics: ['Proposiciones', 'Implicación Lógica.', 'Cuantificadores.'],
     learned:
-      '[Qué aprendiste en esta materia: proposiciones, tablas de verdad y el paso de un problema a un algoritmo por etapas]',
+      'Proposiciones, tablas de verdad y el paso de como resolver un problema logico por etapas',
 
   },
   {
     id: 'introduccion-a-la-programacion',
     name: 'Introducción a la Informática',
-    teacher: '[Nombre del docente]',
-    topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
+    teacher: 'Hernel Yamil',
+    topics: ['Conceptos básicos de la materia informática', 'Estructuras selectiva en código lenguaje C', 'Conocer Recursividad En lenguaje C'],
     learned:
-      '[Qué aprendiste en esta materia: variables, condiciones, ciclos y funciones en un lenguaje de programación]',
+      'Desarrollo de pensamiento logico, variables, condiciones, ciclos y funciones en un lenguaje de programación C',
 
   },
   {
     id: 'tecnica-de-investigacion',
     name: 'Técnicas de Investigación Documental',
-    teacher: '[Nombre del docente]',
-    topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
+    teacher: 'Luisana Chirinos',
+    topics: ['Titulo -Objetivos', 'MOMENTO 1', 'MOMENTO 3'],
     learned:
-      '[Qué aprendiste en esta materia: cómo se plantea una pregunta, cómo se buscan fuentes y cómo se citan]',
+      'Cómo se elavora una tesis, cómo se buscan fuentes confiables y cómo se citan correctamente para que el trabajo sea verificable.',
 
   },
   {
     id: 'ingles',
     name: 'Inglés',
-    teacher: '[Nombre del docente]',
-    topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
+    teacher: 'Pedro Alvarado',
+    topics: ['Las Partes del Habla ', 'Tipos de verbos', 'El presente y el pasado perfecto'],
     learned:
-      '[Qué aprendiste en esta materia: lectura de textos técnicos y vocabulario de la especialidad]',
+      'Vocabulario en ingles, tiempos verbales y como se aplican en la vida cotidiana, lectura de textos técnicos en ingles',
   },
   {
     id: 'politica',
     name: 'Realidad Social y Politica de Venezuela',
-    teacher: '[Nombre del docente]',
-    topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
+    teacher: 'Wilfredo Páez',
+    topics: ['Glosario de términos ilustrado.', 'Elaboración de gráficos', 'Organizacion y participación en Simposio'],
     learned:
-      '[Qué aprendiste en esta materia: conceptos políticos básicos y cómo se analiza un hecho desde distintas posturas]',
+      'La Historia de Venezuela como se convirtio en pais petrolero, la realidad social y política del país y cómo se relaciona con la economía y la cultura. Además, cómo se puede analizar un problema desde distintas perspectivas y proponer soluciones para su desarrollo.',
 
   },
 ];
@@ -162,39 +162,46 @@ const evidence = {
   schedule: [
     {
       id: 'fase-1',
-      phase: '[Nombre de la fase]',
-      period: '[Semana 1 - 2]',
-      task: '[Qué se hizo en esta fase]',
+      phase: 'Investigación y Selección del Modelo de Dron',
+      period: 'Semana 1',
+      task: 'Investigación de especificaciones técnicas (autonomía, capacidad de carga, velocidad) de modelos de drones comerciales e industriales adaptados para emergencias sísmicas.',
       status: 'completed',
     },
     {
       id: 'fase-2',
-      phase: '[Nombre de la fase]',
-      period: '[Semana 3 - 4]',
-      task: '[Qué se hizo en esta fase]',
-      status: 'completed',
+      phase: 'Arquitectura, Requerimientos y Estructuras de Datos',
+      period: 'Semana 2',
+      task: 'Diseño de la arquitectura del software en C, definición de requerimientos funcionales, mapas de rutas y modelado de las estructuras de datos (structs) para simular la telemetría y el inventario de suministros.',
+      status: 'incompleted',
     },
     {
       id: 'fase-3',
-      phase: '[Nombre de la fase]',
-      period: '[Semana 5 - 6]',
-      task: '[Qué se hizo en esta fase]',
-      status: 'current',
+      phase: 'División de Módulos y Asignación de Roles',
+      period: 'Semana 3',
+      task: 'Desglose del sistema en módulos independientes (interfaz de consola, cálculo de rutas/distancias, física de vuelo y gestión de suministros) distribuidos entre los 5 integrantes del equipo.',
+      status: 'incompleted',
     },
     {
       id: 'fase-4',
-      phase: '[Nombre de la fase]',
-      period: '[Semana 7 - 8]',
-      task: '[Qué se hizo en esta fase]',
-      status: 'pending',
+      phase: 'Integración del Código Fuente',
+      period: 'Semana 4',
+      task: 'Unificación y acoplamiento de los diferentes archivos y funciones desarrolladas por cada participante en un único programa ejecutable en C.',
+      status: 'incompleted',
     },
     {
       id: 'fase-5',
-      phase: '[Nombre de la fase]',
-      period: '[Semana 9 - 10]',
-      task: '[Qué se hizo en esta fase]',
-      status: 'pending',
+      phase: 'Pruebas, Depuración y Optimización',
+      period: 'Semana 5',
+      task: 'Ejecución de casos de prueba para validar la lógica de navegación, corrección de errores de memoria (punteros), validación de entradas de usuario y depuración general del software.',
+      status: 'incompleted',
     },
+    {
+      id: 'fase-6',
+      phase: 'Evaluación y Defensa Académica',
+      period: 'Semana 6',
+      task: 'Demostración en vivo de la simulación virtual, presentación de la documentación técnica del proyecto y defensa oral ante el jurado evaluador.',
+      status: 'incompleted',
+    }
   ],
   repositories: [
     {
