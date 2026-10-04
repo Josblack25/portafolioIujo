@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { academicProfile } from '../constants';
+import { academicProfile, profile } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+
+const institution =
+  academicProfile.find((item) => item.label === 'Institución')?.value ?? '';
 
 const About = () => {
   return (
@@ -17,10 +20,13 @@ const About = () => {
         variants={fadeIn('', 'tween', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Soy [tu nombre], estudiante de primer semestre de Informática en [nombre
-        de la institución]. [Describe brevemente por qué elegiste esta carrera y
-        qué te motiva a formarte]. [Expón qué te gustaría aprender o qué aspecto
-        del semestre te resulta más interesante].
+        Soy {profile.firstName}, estudiante de primer semestre de Informática en {institution}.
+        Mi elección profesional nace del interés constante por la computación y el aprendizaje
+        autodidacta. La informática no solo representa una de las áreas con mayor proyección y 
+        demanda laboral, sino también el espacio donde puedo convertir la lógica en herramientas 
+        útiles. En esta primera fase universitaria, mi meta es consolidar los fundamentos de la 
+        lógica computacional, desarrollo de mis habilidades blandas y de comunicación, la creacion
+        de un proyecto y como presentarlo mediante una tesis de grado.
       </motion.p>
 
       <motion.div

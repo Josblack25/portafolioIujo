@@ -2,10 +2,13 @@ import { useEffect, useRef, useState } from 'react';
 import { useReducedMotion } from 'framer-motion';
 
 import { styles } from "../styles";
-import { navLinks, profile } from "../constants";
+import { navLinks, profile, academicProfile } from "../constants";
 import { logo, menu, close } from "../assets";
 
-const { firstName, fullName, role } = profile;
+const { firstName, fullName } = profile;
+
+const carrera =
+  academicProfile.find((item) => item.label === 'Carrera')?.value ?? '';
 
 const MENU_ID = 'menu-movil';
 const TOGGLE_ID = 'boton-menu';
@@ -180,8 +183,8 @@ const Navbar = () => {
           />
 
           <p className='text-white text-[18px] font-bold flex'>
-            {firstName}
-            <span className='hidden sm:inline'> | {role}</span>
+            {firstName.trim()}
+            <span className='hidden sm:inline'> | {carrera}</span>
           </p>
 
         </a>

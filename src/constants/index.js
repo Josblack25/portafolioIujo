@@ -8,19 +8,16 @@ const navLinks = [
 ];
 
 const profile = {
-  firstName: '[Tu nombre]',
-  fullName: '[Tu nombre completo]',
-  role: '[Técnico en Informática]',
+  firstName: 'Adonis',
+  fullName: 'Adonis Daller',
   tagline: '[Una frase breve sobre ti: qué estudias y por qué]',
+  institution: 'Instituto Universitario Jesus Obrero Extencion Barquisimeto '
 };
 
 const academicProfile = [
-  { label: 'Carrera', value: '[Técnico en Informática]' },
-  { label: 'Institución', value: '[Nombre de la institución]' },
+  { label: 'Carrera', value: 'Informática' },
+  { label: 'Institución', value: profile.institution },
   { label: 'Semestre', value: 'Primer semestre' },
-  { label: 'Período', value: '[AAAA - N]' },
-  { label: 'Docente tutor', value: '[Nombre del docente]' },
-  { label: 'Sede', value: '[Ciudad / Estado]' },
 ];
 
 const competencies = [
@@ -78,7 +75,7 @@ const competencies = [
 const subjects = [
   {
     id: 'lenguaje',
-    name: 'Lenguaje',
+    name: 'Lenguaje y Comunicación',
     hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
@@ -100,7 +97,7 @@ const subjects = [
   },
   {
     id: 'logica-de-programacion',
-    name: 'Lógica de Programación',
+    name: 'Lógica Computacional',
     hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
@@ -111,7 +108,7 @@ const subjects = [
   },
   {
     id: 'introduccion-a-la-programacion',
-    name: 'Introducción a la Programación',
+    name: 'Introducción a la Informática',
     hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
@@ -122,7 +119,7 @@ const subjects = [
   },
   {
     id: 'tecnica-de-investigacion',
-    name: 'Técnica de Investigación',
+    name: 'Técnicas de Investigación Documental',
     hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
@@ -144,7 +141,7 @@ const subjects = [
   },
   {
     id: 'politica',
-    name: 'Política',
+    name: 'Realidad Social y Politica de Venezuela',
     hours: '[NN]',
     teacher: '[Nombre del docente]',
     topics: ['[Tema 1]', '[Tema 2]', '[Tema 3]'],
