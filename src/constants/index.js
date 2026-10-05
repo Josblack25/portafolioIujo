@@ -210,18 +210,18 @@ const evidence = {
       language: '[Lenguaje]',
       description: '[Qué contiene]',
     },
-    {
-      name: '[Nombre del repositorio]',
-      url: null,
-      language: '[Lenguaje]',
-      description: '[Qué contiene]',
-    },
-    {
-      name: '[Nombre del repositorio]',
-      url: null,
-      language: '[Lenguaje]',
-      description: '[Qué contiene]',
-    },
+    // {
+    //   name: '[Nombre del repositorio]',
+    //   url: null,
+    //   language: '[Lenguaje]',
+    //   description: '[Qué contiene]',
+    // },
+    // {
+    //   name: '[Nombre del repositorio]',
+    //   url: null,
+    //   language: '[Lenguaje]',
+    //   description: '[Qué contiene]',
+    // },
   ],
 };
 
@@ -229,23 +229,43 @@ const publications = [
   {
     id: 'publicacion-1',
     title:
-      '[Ensayo de la materia de Lenguaje: cómo se organiza un texto argumentativo]',
-    date: '[AAAA-MM-DD]',
-    subject: 'Lenguaje',
-    excerpt:
-      '[Resumen de 1-2 líneas para la tarjeta: de qué trata el ensayo y qué conclusión llegas]',
-    body: '[Párrafo 1: por qué elegiste ese tema y qué te pidió la materia].\n\n[Párrafo 2: tesis o postura que sostienes y con qué argumentos].\n\n[Párrafo 3: fuentes o lecturas que usaste y cómo las citas].\n\n[Párrafo 4: conclusión y qué aprendiste al escribirlo].',
+      'Del papel al código: Cómo el análisis con el Método Cornell impulsó mi simulador de drones',
+    body: `Introducción¿Es posible optimizar el desarrollo de software antes de escribir la primera línea de código? 
+      Durante la etapa inicial de nuestro simulador virtual de drones, me enfrenté al reto de asimilar una investigación 
+      exhaustiva sobre sistemas de vigilancia aérea para desastres naturales. Para abordar el texto "Sistema de simulador de dron de 
+      vigilancia en áreas verdes dirigido al cuerpo de bomberos del estado Aragua", decidí aplicar el Método Cornell como técnica de lectura activa. 
+      Este análisis previo no solo organizó las ideas clave sobre respuesta sismológica y prevención de incendios, sino que se convirtió en la brújula 
+      fundamental para definir la arquitectura de nuestro programa en Lenguaje C y evitar errores de lógica en la fase de implementación.\n\n 
+
+      El Método Cornell como herramienta de ingenieríaAplicar este método me permitió estructurar la información en tres niveles operativos para el 
+      proyecto:Ideas clave (Columna izquierda): Identificación de las circunstancias de despliegue en contingencias, requerimientos del simulador, 
+      diferencias entre la vigilancia humana y la automatizada, y sus aplicaciones directas en sismología.Notas de análisis 
+      (Columna derecha): Evaluación del impacto operacional: alta precisión en tareas remotas, reducción sustancial del tiempo de respuesta, 
+      disminución de costos logísticos y garantía de seguridad para los equipos de rescate.Síntesis y aplicación (Resumen): Consolidación conceptual 
+      para guiar el diseño del software.\n\n
+
+     Vigilancia tradicional vs. Simulación con dronesA diferencia del monitoreo presencial —limitado 
+      por el terreno y de alto riesgo humano—, un sistema virtual parametriza variables críticas. El estudio demostró que el uso de sensores y cámaras
+      térmicas permite cubrir áreas de difícil acceso. En nuestro simulador, esto se tradujo en algoritmos que evalúan rutas seguras antes de desplegar un rescate real.\n\n
+      De la teoría a la arquitectura del softwareLa lectura crítica reveló que el valor principal del dron reside en la reducción del tiempo de respuesta 
+      y la eficiencia logística. Al trasponer estos hallazgos a nuestro sistema en C, diseñamos estructuras de datos (structs) orientadas a gestionar suministros médicos 
+      y medir la autonomía de vuelo en zonas de desastre, optimizando la toma de decisiones en situaciones de alerta sísmica o riesgo de derrumbe.\n\n
+    
+      La investigación académica y la programación no son procesos aislados; la lectura estructurada mediante el Método Cornell demostró ser un pilar fundamental para fundamentar nuestro 
+      proyecto de simulación. Comprender a fondo la logística de rescate, la prevención de incendios y la evaluación de zonas de riesgo nos permitió construir un código 
+      más robusto, eficiente y alineado con necesidades reales de emergencia. Te invito a explorar la sección de proyectos de este portafolio para conocer a detalle la 
+      arquitectura en C y el funcionamiento técnico de este simulador.\n\n`,
   },
-  {
-    id: 'publicacion-2',
-    title:
-      '[Análisis de la materia de Política: un caso para entenderlo desde dos posturas]',
-    date: '[AAAA-MM-DD]',
-    subject: 'Política',
-    excerpt:
-      '[Resumen de 1-2 líneas para la tarjeta: qué caso analizaste y qué comparaste]',
-    body: '[Párrafo 1: contexto del caso y por qué lo elegiste].\n\n[Párrafo 2: postura A y los argumentos que la sostienen].\n\n[Párrafo 3: postura B y los argumentos que la sostienen].\n\n[Párrafo 4: qué concluyes y qué queda abierto].',
-  },
+  // {
+  //   id: 'publicacion-2',
+  //   title:
+  //     '[Análisis de la materia de Política: un caso para entenderlo desde dos posturas]',
+  //   date: '[AAAA-MM-DD]',
+  //   subject: 'Política',
+  //   excerpt:
+  //     '[Resumen de 1-2 líneas para la tarjeta: qué caso analizaste y qué comparaste]',
+  //   body: '[Párrafo 1: contexto del caso y por qué lo elegiste].\n\n[Párrafo 2: postura A y los argumentos que la sostienen].\n\n[Párrafo 3: postura B y los argumentos que la sostienen].\n\n[Párrafo 4: qué concluyes y qué queda abierto].',
+  // },
 ];
 
 const references = [

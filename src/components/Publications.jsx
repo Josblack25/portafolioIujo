@@ -33,7 +33,7 @@ const renderBody = (body) => {
 };
 
 const Publications = () => {
-  const hasEnoughPosts = publications && publications.length >= 2;
+  const hasEnoughPosts = publications && publications.length >= 0;
 
   return (
     <>
@@ -50,7 +50,7 @@ const Publications = () => {
           <Placeholder
             icon="document"
             label="[Falta contenido de publicaciones]"
-            hint="[Añade al menos 2 publicaciones en constants/publications]"
+            hint="[Añade al menos 1 publicaciones en constants/publications]"
           />
         </motion.div>
       ) : (
@@ -67,20 +67,14 @@ const Publications = () => {
                     {pub.title}
                   </h3>
                   <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-secondary">
-                    <time dateTime={pub.date}>{formatDate(pub.date)}</time>
-                    <span>•</span>
-                    <span>{pub.subject}</span>
                   </div>
-                  <p className="mt-4 text-white text-[18px] leading-[28px] font-medium">
-                    {pub.excerpt}
-                  </p>
                 </header>
                 <div className="mt-6">{renderBody(pub.body)}</div>
               </motion.article>
             ))}
           </div>
 
-          {references && references.length > 0 && (
+          {/* {references && references.length > 0 && (
             <>
               <div className="my-12 h-px bg-white/10 max-w-prose mx-auto" />
               <motion.div
@@ -111,7 +105,7 @@ const Publications = () => {
                 </ul>
               </motion.div>
             </>
-          )}
+          )} */}
         </>
       )}
     </>
