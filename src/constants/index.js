@@ -1,6 +1,6 @@
 const navLinks = [
   { id: 'portada', title: 'Portada' },
-  { id: 'introduccion', title: 'Sobre mí' },
+  { id: 'introduccion', title: 'Sobre nosotros' },
   { id: 'competencias', title: 'Competencias' },
   { id: 'materias', title: 'Materias' },
   { id: 'evidencias', title: 'Evidencias' },
@@ -10,9 +10,28 @@ const navLinks = [
 const profile = {
   firstName: 'Adonis',
   fullName: 'Adonis Daller',
-  tagline: '[Una frase breve sobre ti: qué estudias y por qué]',
-  institution: 'Instituto Universitario Jesus Obrero Extencion Barquisimeto '
+  tagline:
+    'Cinco estudiantes de Informática que convierten la logística de emergencia en una simulación.',
+  institution: 'Instituto Universitario Jesús Obrero, Extensión Barquisimeto',
 };
+
+const project = {
+  title:
+    'Simulador virtual de drones para envíos de suministro de emergencia ante eventos sísmicos en el estado Lara, Venezuela',
+  shortTitle: 'Simulador virtual de drones',
+  subject: 'Lenguaje',
+  teacher: 'Naiyelis Peroza',
+  location: 'Estado Lara, Venezuela',
+  approach: 'Simulación en lenguaje C',
+};
+
+const team = [
+  { name: 'Derliannys P.' },
+  { name: 'Valentín V.' },
+  { name: 'Adonis Daller' },
+  { name: 'Miguelangel L.' },
+  { name: 'Jhonder G.' },
+];
 
 const academicProfile = [
   { label: 'Carrera', value: 'Informática' },
@@ -279,6 +298,8 @@ const references = [
 export {
   navLinks,
   profile,
+  project,
+  team,
   academicProfile,
   competencies,
   subjects,
