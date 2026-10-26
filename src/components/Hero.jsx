@@ -1,9 +1,8 @@
 import { motion, useReducedMotion } from "framer-motion"
 
 import { styles } from '../styles'
-import { navLinks, profile, project, academicProfile, team } from '../constants'
+import { navLinks, project, academicProfile, team } from '../constants'
 
-const { fullName } = profile
 const { shortTitle, location } = project
 
 const carrera = academicProfile.find((item) => item.label === 'Carrera')?.value ?? ''
@@ -79,7 +78,7 @@ const Hero = () => {
                   Conoce el proyecto
                 </a>
                 <span className="text-[15px] text-secondary">
-                  Portafolio de {fullName} · {carrera}
+                  Equipo de {team.length} estudiantes · {carrera}
                 </span>
               </div>
 

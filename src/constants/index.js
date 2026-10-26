@@ -8,8 +8,7 @@ const navLinks = [
 ];
 
 const profile = {
-  firstName: 'Adonis',
-  fullName: 'Adonis Daller',
+  brand: 'Portafolio',
   tagline:
     'Cinco estudiantes de Informática que convierten la logística de emergencia en una simulación.',
   institution: 'Instituto Universitario Jesús Obrero, Extensión Barquisimeto',

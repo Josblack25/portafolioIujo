@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { navLinks, profile, academicProfile } from "../constants";
 import { logo, menu, close } from "../assets";
 
-const { firstName, fullName } = profile;
+const { brand } = profile;
 
 const carrera =
   academicProfile.find((item) => item.label === 'Carrera')?.value ?? '';
@@ -169,7 +169,7 @@ const Navbar = () => {
         <a
           href="#portada"
           className='flex items-center gap-2'
-          aria-label={`Ir al inicio: ${fullName}`}
+          aria-label={`Ir al inicio: ${brand}`}
         >
 
           <img
@@ -183,7 +183,7 @@ const Navbar = () => {
           />
 
           <p className='text-white text-[18px] font-bold flex'>
-            {firstName.trim()}
+            {brand}
             <span className='hidden sm:inline'> | {carrera}</span>
           </p>
 
