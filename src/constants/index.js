@@ -185,11 +185,11 @@ const subjects = [
 const evidence = {
   photos: [
     {
-      src: 'public/evidencias/codigofuente.png',
+      src: '/evidencias/codigofuente.png',
       caption: 'codigo fuente del proyecto en lenguaje C, con sus respectivas funciones y estructuras de datos.',
     },
     {
-      src: 'public/evidencias/documentacion.png',
+      src: '/evidencias/documentacion.png',
       caption: 'documentación del proyecto, con sus respectivas explicaciones y diagramas.',
     },
     {
