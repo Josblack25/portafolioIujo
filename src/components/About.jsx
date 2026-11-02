@@ -22,8 +22,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>El equipo y el proyecto</p>
-        <h2 className={styles.sectionHeadText}>Sobre nosotros</h2>
+        <p className={styles.sectionSubText}>Introducción</p>
       </motion.div>
 
       <motion.p
@@ -32,7 +31,7 @@ const About = () => {
       >
         Un sismo no solo derriba estructuras: corta caminos, interrumpe comunicaciones y
         convierte cada minuto en una decisión crítica. El sismo que afectó recientemente a La
-        Guaira lo dejó claro. En una emergencia, la diferencia entre reaccionar y anticiparse
+        Guaira lo dejó claro. En una emergencia, reaccionar y decidir rápido es vital. Ensayar la respuesta antes de que ocurra un desastre
         puede salvar vidas.
       </motion.p>
 

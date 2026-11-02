@@ -27,7 +27,7 @@ const project = {
 const team = [
   { name: 'Derliannys P.' },
   { name: 'Valentín V.' },
-  { name: 'Adonis Daller' },
+  { name: 'Adonis D.' },
   { name: 'Miguelangel L.' },
   { name: 'Jhonder G.' },
 ];
@@ -43,49 +43,77 @@ const competencies = [
     id: 'competencia-1',
     name: 'Pensamiento algorítmico',
     description:
-      "Descomponer un problema en pasos ordenados que una máquina pueda ejecutar. Demuestra que un problema se resuelve con un procedimiento explícito y verificable.",
+      `3. Llevar todo eso al código en C
+
+Es aquí donde empezamos a trabajar con el código.
+
+Traducir fórmulas. Para ello nos ayudamos de la librería de C. De esta forma podemos usar las matemáticas (física y trigonometría) con buena precisión (usando float o double).
+
+Organizar el código. En este apartado agrupamos toda la información relevante (posición, velocidad y estados lógicos) en estructuras (struct). De esta forma conseguimos un código limpio y fácil de mantener.`,
     subject: 'Introducción a la Programación',
   },
   {
     id: 'competencia-2',
     name: 'Pensamiento computacional',
     description:
-      'La logica no se trata de solo de programar, sino de pensar en términos de datos, procesos y resultados. Demuestra que puedes analizar un problema y diseñar una o varias solucines que una computadora pueda ejecutar.',
+      `La lógica para que el dron "piense" y decida
+
+Aquí es donde el dron empieza a tomar decisiones inteligentes de acuerdo con ciertas reglas.
+
+Saber cuándo es seguro volar. En este punto usamos lógica proposicional. Es decir, evaluamos varios criterios a la vez. Por ejemplo, podemos decidir si es seguro o no despegar (según estado de la batería y estado del viento).
+
+Manejar emergencias y estados o bien decide lanzar un aterrizaje de emergencia (en caso de algún problema)`,
     subject: 'Lógica Computacional',
   },
   {
     id: 'competencia-3',
-    name: 'Comunicación efectiva',
+    name: 'Lo que desarrollas al hablar (Comunicación Oral)',
     description:
-      'Presentar o comunicar una idea con una estructura, precisión y confianza demuestra que puedes organizar tus ideas y expresarlas de manera clara y convincente.',
+      `Contar la lógica detrás del proyecto: en este caso debes explicar en voz alta (ante el profesor y tus compañeros) cómo funciona tu programa en C. Qué es lo que hace y por qué lo has hecho de esa manera. Debes explicar cómo simula el vuelo del dron. Sin enredarte.
+
+Ajustar cómo hablas según quién te escucha: debes saber expresar la parte técnica a quien conoce de código. También debes saber explicar la idea general del simulador a quien no programa.
+
+Defender tu trabajo con seguridad: debes responder a preguntas en el momento. Justificar por qué has realizado determinadas cosas en el código. También explicar para qué sirve en la vida real.`,
     subject: 'Lenguaje y Comunicación',
   },
   {
     id: 'competencia-4',
     name: 'Desarrollo de un gran país',
     description:
-      'Entender la realidad social y política de Venezuela y cómo se relaciona con la historia, la economía y la cultura demuestra que puedes analizar un problema desde distintas perspectivas y proponer soluciones para su desarrollo.',
+      `Analizar la vulnerabilidad territorial. Evaluamos cómo los desastres naturales afectan zonas de difícil acceso en el estado Lara. Aprendemos a identificar los problemas de infraestructura que frenan la ayuda a la población.
+
+Aportar soluciones para el desarrollo. Diseñamos el simulador para optimizar la logística de rescate. Esto demuestra capacidad para proponer herramientas tecnológicas que protegen vidas y fortalecen la respuesta del país ante emergencias.`,
     subject: 'Realidad Social y Política de Venezuela',
   },
   {
     id: 'competencia-5',
     name: 'Investigación aplicada',
     description:
-      'Formular una pregunta, buscar fuentes y citar lo que usas hace que tu trabajo sea confiable y verificable. Demuestra que puedes investigar un tema y presentar tus hallazgos de manera clara y organizada.',
+      `Recolectar y organizar información. Buscamos datos reales sobre rutas, capacidades de carga, autonomía de drones y zonas de riesgo en Lara. Aprendemos a seleccionar fuentes confiables para estructurar la simulación.
+
+Documentar y comunicar el proceso. Redactamos la justificación, los requerimientos del sistema y las evidencias del desarrollo. Esto demuestra capacidad para presentar un proyecto técnico de forma clara, rigurosa y estructurada.`,
     subject: 'Técnica de Investigación Documental',
   },
   {
     id: 'competencia-6',
     name: 'Razonamiento cuantitativo',
     description:
-      'Trabajar con números, operaciones y relaciones entre cantidades, demuestra: que puedes leer datos, calcular con ellos y justificar la conclusión',
+      `2. Las matemáticas para que el dron "vuele" en el espacio
+
+      En este punto entran en juego aspectos más relacionados con la física y geometría.
+
+      Vectores y movimiento. En este punto trabajamos con coordenadas en 2D (X, Y). También trabajamos con vectores. Por ejemplo, calculamos la velocidad y dirección. También vemos cómo afecta el viento al recorrido del dron (por cada cuadro).
+
+      Trigonometría y rutas. En este apartado trabajamos con senos y cosenos, además de otras leyes geométricas. Por ejemplo, calculamos en qué dirección tiene que inclinarse (pitch/roll) el dron. O bien, calculamos qué distancia hay hasta el siguiente punto de control (waypoint).`,
     subject: 'Matemática',
   },
   {
     id: 'competencia-7',
     name: 'Lectura de textos técnicos en inglés',
     description:
-      'Entender documentación y textos de la especialidad en el idioma original, ayuda a consultar fuentes directas, enteder el contexto y aprender de manera más eficiente. Demuestra que puedes leer y comprender textos técnicos en inglés.',
+    `Comprender sintaxis y términos técnicos. Leemos y aplicamos palabras clave del lenguaje C (float, void, struct, switch) y documentación oficial. Aprendemos a interpretar manuales técnicos de drones y librerías en su idioma original.
+
+Documentar código para un entorno global. Escribimos nombres de variables, funciones y comentarios técnicos en inglés dentro del simulador. Esto demuestra capacidad para seguir estándares internacionales en el desarrollo de software.`,
     subject: 'Inglés',
   },
 ];
@@ -157,12 +185,12 @@ const subjects = [
 const evidence = {
   photos: [
     {
-      src: null,
-      caption: '[Descripción de la foto: qué muestra y en qué actividad se tomó]',
+      src: '/evidencias/codigofuente.png',
+      caption: 'codigo fuente del proyecto en lenguaje C, con sus respectivas funciones y estructuras de datos.',
     },
     {
-      src: null,
-      caption: '[Descripción de la foto: qué muestra y en qué actividad se tomó]',
+      src: '/evidencias/documentacion.png',
+      caption: 'documentación del proyecto, con sus respectivas explicaciones y diagramas.',
     },
     {
       src: null,
@@ -223,10 +251,10 @@ const evidence = {
   ],
   repositories: [
     {
-      name: '[Nombre del repositorio]',
-      url: null,
-      language: '[Lenguaje]',
-      description: '[Qué contiene]',
+      name: 'codigoProyectoC',
+      url: 'https://github.com/kinetixsistemas/codigoProyectoC',
+      language: 'Lenguaje C',
+      description: 'Codigo Funcional del Proyecto en Lenguaje C, con sus respectivas funciones y estructuras de datos.',
     },
     // {
     //   name: '[Nombre del repositorio]',
