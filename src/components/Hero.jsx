@@ -58,7 +58,7 @@ const Hero = () => {
 
               <p className="mt-4 max-w-3xl text-[17px] leading-[30px] text-white-100">
                 Somos {team.length} estudiantes de Informática. Construimos un simulador en C para
-                ensayar rutas, autonomía, carga y suministros antes de que ocurra un sismo.
+                ensayar rutas, autonomía, carga y suministros ante eventos sísmicos.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-x-8 gap-y-4 max-w-3xl border-t border-white/10 pt-6">
